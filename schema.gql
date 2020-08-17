@@ -1,0 +1,7 @@
+type URL {
+  short_url: String!
+  long_url: String!
+}
+type Query {
+  findURLbyShortURL(short_url: String!): URL
+}
